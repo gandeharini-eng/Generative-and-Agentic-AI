@@ -1,29 +1,133 @@
-# Python
+# =========================
+# PYTHON
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Virtual Environments
+# Virtual Environment
 venv/
-venv311/
 env/
+ENV/
 .venv/
 
-# Jupyter
+# =========================
+# JUPYTER NOTEBOOKS
+# =========================
 .ipynb_checkpoints/
 
-# Models
-*.h5
-*.pth
-*.pt
+# Jupyter Lab
+.jupyter/
 
-# Datasets
+# =========================
+# DATA SCIENCE FILES
+# =========================
+
+# Dataset files
 data/
-dataset/
+datasets/
+*.csv
+*.xlsx
+*.xls
+
+*.parquet
+*.feather
+*.h5
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+
+# Logs
+logs/
+*.log
+
+# Output folders
+outputs/
+results/
+reports/
+
+# =========================
+# MACHINE LEARNING / DL
+# =========================
+
+# TensorFlow
+checkpoint
+*.ckpt
+
+# PyTorch
+runs/
+
+# =========================
+# ENVIRONMENT VARIABLES
+# =========================
+.env
+.env.*
+
+# =========================
+# IDE FILES
+# =========================
 
 # VS Code
 .vscode/
 
+# PyCharm
+.idea/
+
 # Mac
 .DS_Store
+
+# Windows
+Thumbs.db
+
+# =========================
+# BUILD / CACHE
+# =========================
+build/
+dist/
+*.egg-info/
+
+# pip cache
+pip-wheel-metadata/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# coverage
+.coverage
+htmlcov/
+
+# =========================
+# STREAMLIT
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# GOOGLE COLAB
+# =========================
+/content/
+
+# =========================
+# TEMP FILES
+# =========================
+tmp/
+temp/
+*.tmp
 
 node_modules
